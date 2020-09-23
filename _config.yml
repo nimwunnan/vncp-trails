@@ -23,7 +23,7 @@ email:  vcnp.trails@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
  Unlock the secrets to one of New Mexico’s most remarkable landscapes.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://nimwunnan.github.io/vncp-trails/" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 collections:
