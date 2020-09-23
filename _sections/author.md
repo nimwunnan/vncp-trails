@@ -3,6 +3,7 @@ layout: default
 title: author
 ---
 
+## About the Author
 
 <img src="/img/Author.jpg" style="max-height: 60vh; text-align: center;" alt="A hiker's feet propped over a wide field with distant trees">
 
