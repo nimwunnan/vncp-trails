@@ -49,7 +49,7 @@ color:
 
 defaults:
   - scope:
-      path: "img/photos/"
+      path: "/img/photos/"
     values:
       image: true
 
