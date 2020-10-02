@@ -14,7 +14,7 @@ body {
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
-    background-color: #2C46B1;
+    background-color: #091F5D;
 }
 
 html {
@@ -71,7 +71,7 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #2C46B1;
+    background-color: #091F5D;
 }
 
 .navbar-custom .navbar-brand {
@@ -128,7 +128,7 @@ a:focus {
 
     .top-nav-collapse {
         padding: 0;
-        background-color: #2C46B1;
+        background-color: #091F5D;
     }
 
     .navbar-custom.top-nav-collapse {
@@ -143,8 +143,8 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(/img/landing-splash.jpg) no-repeat bottom center scroll;
-    background-color: #2C46B1;
+    background: url(/img/landing-cropped.jpg) no-repeat bottom center scroll;
+    background-color: #091F5D;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -262,7 +262,7 @@ a:focus {
     padding: 50px 0;
     color: #fff;
     background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #2C46B1;
+    background-color: #091F5D;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -274,7 +274,7 @@ a:focus {
     padding: 200px 0;
     color: #fff;
     background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #2C46B1;
+    background-color: #091F5D;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -288,8 +288,13 @@ a:focus {
 }
 
 @media(min-width:767px) {
+
+    p {
+    margin: 0 0 25px;
+}
+
     .content-section {
-        padding-top: 200px;
+        padding-top: 100px;
     }
 
     .download-section {
@@ -321,7 +326,7 @@ a:focus {
 .btn-default:focus {
     border: 1px solid #ffd899;
     outline: 0;
-    color: #2C46B1;
+    color: #091F5D;
     background-color: #ffd899;
 }
 
@@ -383,6 +388,12 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
+#caption {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-style: italic;
+}
 #gallery {
     display: grid;
     grid-template-columns: 25% 25% 25% 25% ;
@@ -399,6 +410,9 @@ body {
     background-repeat: no-repeat;
 }
 
+ul {
+    padding: 0px;
+}
 li {
     font-size: 18px;
     line-height: 32px;
