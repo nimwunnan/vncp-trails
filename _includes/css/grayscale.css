@@ -138,7 +138,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(/img/landing-splash.jpg) no-repeat bottom center scroll;
+    background: url(/img/landing-cropped.jpg) no-repeat bottom center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -283,8 +283,13 @@ a:focus {
 }
 
 @media(min-width:767px) {
+
+    p {
+    margin: 0 0 25px;
+}
+
     .content-section {
-        padding-top: 200px;
+        padding-top: 100px;
     }
 
     .download-section {
@@ -378,6 +383,12 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
+#caption {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-style: italic;
+}
 #gallery {
     display: grid;
     grid-template-columns: 25% 25% 25% 25% ;
@@ -394,6 +405,9 @@ body {
     background-repeat: no-repeat;
 }
 
+ul {
+    padding: 0px;
+}
 li {
     font-size: 18px;
     line-height: 32px;

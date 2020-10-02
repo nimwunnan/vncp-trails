@@ -31,7 +31,6 @@ collections:
     order:
       - subhead.md 
       - about.md
-      - author.md
       - learn.md
       - contact.md
       - buy.md
@@ -44,7 +43,7 @@ plugins:
   - jekyll-feed
 
 color:
-  primary-dark: '#2C46B1'
+  primary-dark: '#091F5D'
   links: '#ffd899'
 
 defaults:

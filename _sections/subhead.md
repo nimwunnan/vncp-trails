@@ -3,9 +3,10 @@ layout: default
 title: subhead
 ---
 
-<img src="/img/bookcover.jpg" style="max-height: 60vh; text-align: center;">
+### The first comprehensive trail guide 
+### to Valles Caldera National Preserve includes
 
-### The first comprehensive trail guide to Valles Caldera National Preserve includes
+<img src="/img/bookcover.jpg" style="max-height: 60vh; text-align: center;">
 
 * Over two dozen trails with detailed descriptions
 * Maps, coordinates, and conditions
